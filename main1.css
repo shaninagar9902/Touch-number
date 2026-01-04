@@ -1,0 +1,85 @@
+body,
+html {
+    font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px rgb(47, 47, 206), -3px -3px 5px rgb(82, 128, 144);
+    color: peru;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.board {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board td {
+    vertical-align: middle;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.2s;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+    box-shadow: 0 0 10px gold;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td.hit {
+    color: black;
+    background-color: rgb(169, 118, 98);
+    box-shadow: inset 0 0 5px black;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: peru;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
+
+button:active {
+    background-color: rgb(194, 186, 146);
+}
